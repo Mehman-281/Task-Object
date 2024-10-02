@@ -1,34 +1,18 @@
-let age = 32
-let email = `mehman@gmail.com`
-let password = `Salam123`
-let username = `mehman`
-let departament = `IT`
+let num = 14
 
-if (age >= 31) {
-    console.log(`true`);
-} else {
-    console.log('false');
+if (num === 66 || num === 14) {
+    console.log("result 1");
 
-}
-if (email === `mehman@gmail.com`)
-    console.log(`email true`);
-} else {
-    console.log();
-    
+} else if (num ===6) {
+    console.log("result 2");
 
-}
+}else if (num  === 9 || num === 8) {
+    console.log("3");
 
-if (password >= 7) {
-    console.log(`true`);
-} else {
-    console.log(`false`);
+}else if (num === 14 ) {
+    console.log("4");
+
+}else {
+    console.log("end");
     
 }
-    
-
-
-
-
-
-
-
